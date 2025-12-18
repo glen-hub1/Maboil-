@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maboiller | Portfolio</title>  <!-- Icons -->  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  <style>
+    body{
+      margin:0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:#fff;
+      scroll-behavior:smooth;
+    }
+    header{
+      text-align:center;
+      padding:40px 20px;
+    }
+    header img{
+      width:150px;
+      height:150px;
+      border-radius:50%;
+      border:4px solid #ff0057;
+      box-shadow:0 0 20px #ff0057;
+    }
+    h1 span{
+      color:#ff0057;
+    }
+    section{
+      padding:40px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+    .card{
+      background:rgba(255,255,255,0.1);
+      padding:25px;
+      border-radius:20px;
+      margin-bottom:25px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.3);
+      animation: fadeUp 1s ease;
+    }
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(40px);} 
+      to{opacity:1; transform:translateY(0);} 
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      background:#ff0057;
+      color:#fff;
+      padding:12px 18px;
+      border-radius:30px;
+      text-decoration:none;
+      margin:8px;
+      transition:0.3s;
+    }
+    .btn:hover{background:#ff3377; transform:scale(1.05);}
+    .socials{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:10px;
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:15px;
+    }
+    .gallery img{
+      width:100%;
+      border-radius:15px;
+      transition:0.3s;
+    }
+    .gallery img:hover{transform:scale(1.05);}
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#000;
+      font-size:14px;
+    }
+  </style></head>
+<body><header>
+  <img src="https://files.catbox.moe/d1zpix.jpg" alt="Maboiller">
+  <h1 id="typing"></h1>
+</header><!-- AUDIO AUTOPLAY --><audio autoplay loop controls style="width:100%">
+  <!-- ADD YOUR AUDIO LINK BELOW -->
+  <source src="YOUR_AUDIO_LINK_HERE.mp3" type="audio/mpeg">
+</audio><section>
+  <div class="card">
+    <h2>Introduction</h2>
+    <p>Maboiller is a Gusii Urban music artist blending modern urban sounds with authentic cultural influence. He hails from Nyamasege Village, Ogembo Town, Kisii County, Kenya.</p>
+  </div>  <div class="card">
+    <h2>Education</h2>
+    <p>He began his academic journey at Nyamasege Primary School, later attending Moteiribe Secondary School, Riambase Secondary School, and Igorera High School. He is currently a student at Jaramogi Oginga Odinga University of Science and Technology (JOOUST), pursuing a Bachelor of Education Science (Biology & Chemistry with IT).</p>
+  </div>  <div class="card">
+    <h2>Achievements</h2>
+    <p>As an artist, Maboiller has released hit songs including <b>Eroro</b>, <b>Salima</b>, <b>Tiga Nkoe</b>, among others, shaping his identity in the Gusii Urban music scene.</p>
+  </div>  <div class="card">
+    <h2>Goals</h2>
+    <p>He balances academics with a growing music career, guided by strong Christian values — discipline, faith, and purpose-driven living.</p>
+  </div>  <div class="card">
+    <h2 id="typing2"></h2>
+  </div>  <div class="card">
+    <h2>Support Me</h2>
+    <div class="socials">
+      <a class="btn" href="https://www.youtube.com/@maboiller" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <a class="btn" href="https://www.facebook.com/share/17aKEeGdYS/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+      <a class="btn" href="https://www.tiktok.com/@maboillermusic" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+      <a class="btn" href="https://www.instagram.com/maboillermusic" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+  </div>  <div class="card">
+    <h2>Buy Me Coffee ☕</h2>
+    <p>Safaricom: <b>0768801681</b> <button onclick="copyText('0768801681')">Copy</button></p>
+    <p>Airtel: <b>0788991657</b> <button onclick="copyText('0788991657')">Copy</button></p>
+  </div>  <div class="card">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://files.catbox.moe/d1zpix.jpg">
+      <img src="https://files.catbox.moe/grw9vb.jpg">
+      <img src="https://files.catbox.moe/vqsb6w.jpg">
+      <img src="https://files.catbox.moe/kspien.jpg">
+    </div>
+  </div>  <div class="card">
+    <h2 id="typing3"></h2>
+    <div class="socials">
+      <a class="btn" href="https://wa.me/254788991657"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a class="btn"><i class="fas fa-phone"></i> Safaricom</a>
+      <a class="btn"><i class="fas fa-phone"></i> Airtel</a>
+      <a class="btn" href="mailto:kevinangasa02@gmail.com"><i class="fas fa-envelope"></i> Gmail</a>
+    </div>
+  </div>  <div class="card">
+    <a class="btn">Download Maboiller CV</a>
+    <a class="btn">Download Maboiller APK</a>
+  </div>
+</section><footer>
+  © 2025 Maboiller | Stay Authentic 💖
+</footer><script>
+  const typeText = (el, text, speed=80) =>{
+    let i=0;
+    const interval=setInterval(()=>{
+      el.textContent += text.charAt(i);
+      i++;
+      if(i===text.length) clearInterval(interval);
+    },speed);
+  }
+  typeText(document.getElementById('typing'), 'Hello, welcome to Maboiller portfolio website 💓');
+  typeText(document.getElementById('typing2'), 'Maboiller represents ambition, consistency, and authenticity — rising while staying true to his roots.');
+  typeText(document.getElementById('typing3'), 'Contact me for any inquiries');
+
+  function copyText(text){
+    navigator.clipboard.writeText(text);
+    alert('Copied: ' + text);
+  }
+
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('sw.js');
+  }
+</script></body>
+</html>
